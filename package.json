@@ -5,8 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
+  "start": "node index.js",
+  "lint": "echo 'No lint configured' && exit 0", 
+  "build": "echo 'No build step needed' && exit 0",
+  "test": "echo 'No unit tests configured' && exit 0",
+  "start:test": "node index.js",
+  "test:e2e": "echo 'No E2E tests configured' && exit 0"
+}
+,
   "author": "",
   "license": "ISC",
   "dependencies": {
